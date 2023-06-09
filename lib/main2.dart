@@ -33,7 +33,51 @@ void test3() {
 }
 
 void test4() {
+  final age = 2;
+  final halfOfAge = age / 2;
+  final doubleTheAge = age * 2;
+  print(halfOfAge);
+}
 
+void test5() {
+  var age = 20;
+  final ageMinusOne = --age;
+  print(age);
+  print(ageMinusOne);
+}
+
+void test6() {
+  final name = "foo";
+  final nameTimes20 = name * 20;
+  print(nameTimes20);
+}
+
+void test7() {
+  final names = ["Foo", "Bar", "Baz"];
+  [0,1,2];
+  names.add("My name");
+  final foo = names[2];
+  final length = names.length;
+  print(length);
+  print(foo);
+  final brains = {"Foo"};
+  print(brains);
+
+  var lames = {"foo", "bar", "baz"};
+  lames.add("foo");
+  lames.add("bar");
+  lames.add("baz");
+  print(names);
+
+  const things = {"foo", 1};
+  print(things);
+}
+
+void test8() {
+  final person = {'age': 20, 'name':"Foo"};
+  print(person);
+  person["lastname"] = "Baz";
+  print(person);
 }
 
 class Main extends StatelessWidget{
